@@ -10,7 +10,7 @@ export function Header(): HTMLElement {
 
     const headerLogo = document.createElement('img');
     headerLogo.className = 'header-logo';
-    headerLogo.src = './src/images/Foodieland..svg';
+    headerLogo.src = '/images/Foodieland..svg';
     headerLogo.alt = 'Foodieland Logo';
     headerLogo.addEventListener('click', () => {
         window.location.href = './index.html';
@@ -37,11 +37,11 @@ export function Header(): HTMLElement {
     const instagram = document.createElement('img');
     const facebook = document.createElement('img');
     const twitter = document.createElement('img');
-    instagram.src = './src/images/004-instagram.svg';
+    instagram.src = '/images/004-instagram.svg';
     instagram.alt = 'Instagram';
-    facebook.src = './src/images/001-facebook.svg';
+    facebook.src = '/images/001-facebook.svg';
     facebook.alt = 'Facebook';
-    twitter.src = './src/images/003-twitter.svg';
+    twitter.src = '/images/003-twitter.svg';
     twitter.alt = 'Twitter';
     headerSocials.appendChild(facebook);
     headerSocials.appendChild(twitter);

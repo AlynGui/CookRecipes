@@ -26,7 +26,7 @@ export function SlideCard(props: SlideCardProps): HTMLElement {
     left_top1.className = 'slideCard-left-top1';
     left.appendChild(left_top1);
     const left_top1_img = document.createElement('img');
-    left_top1_img.src = './src/images/hotIcon.svg';
+    left_top1_img.src = '/images/hotIcon.svg';
     left_top1_img.alt = 'hot icon';
     left_top1.appendChild(left_top1_img);
     const left_top1_span = document.createElement('span');
@@ -54,7 +54,7 @@ export function SlideCard(props: SlideCardProps): HTMLElement {
     const left_top4_time = document.createElement('div');
     left_top4_time.className = 'slideCard-left-top4-time';
     const left_top4_time_img = document.createElement('img');
-    left_top4_time_img.src = './src/images/Timer.svg';
+    left_top4_time_img.src = '/images/Timer.svg';
     left_top4_time_img.alt = 'timer icon';
     left_top4_time.appendChild(left_top4_time_img);
     const left_top4_time_span = document.createElement('span');
@@ -66,7 +66,7 @@ export function SlideCard(props: SlideCardProps): HTMLElement {
     const left_top4_foodStyle = document.createElement('div');
     left_top4_foodStyle.className = 'slideCard-left-top4-foodStyle';
     const left_top4_foodStyle_img = document.createElement('img');
-    left_top4_foodStyle_img.src = './src/images/ForkKnife.svg';
+    left_top4_foodStyle_img.src = '/images/ForkKnife.svg';
     left_top4_foodStyle_img.alt = 'food style icon';
     left_top4_foodStyle.appendChild(left_top4_foodStyle_img);
     const left_top4_foodStyle_span = document.createElement('span');
@@ -83,7 +83,7 @@ export function SlideCard(props: SlideCardProps): HTMLElement {
     const left_top5_1 = document.createElement('div');
     left_top5_1.className = 'slideCard-left-top5-1';
     const left_top5_1_img = document.createElement('img');
-    left_top5_1_img.src = './src/images/author.svg';
+    left_top5_1_img.src = '/images/author.svg';
     left_top5_1_img.alt = 'author icon';
     left_top5_1.appendChild(left_top5_1_img);
     const left_top5_1_span1 = document.createElement('span');
@@ -102,7 +102,7 @@ export function SlideCard(props: SlideCardProps): HTMLElement {
     left_top5_2_span.textContent = 'View Recipes';
     left_top5_2.appendChild(left_top5_2_span);
     const left_top5_2_img = document.createElement('img');
-    left_top5_2_img.src = './src/images/PlayCircle.svg';
+    left_top5_2_img.src = '/images/PlayCircle.svg';
     left_top5_2_img.alt = 'view recipes icon';
     left_top5_2.onclick = () => {
         window.location.href = props.readMoreLink;
@@ -119,7 +119,7 @@ export function SlideCard(props: SlideCardProps): HTMLElement {
     right_img.alt = props.imageAlt;
     right.appendChild(right_img);
     const right_hand_img = document.createElement('img');
-    right_hand_img.src = './src/images/Badge.svg';
+    right_hand_img.src = '/images/Badge.svg';
     right_hand_img.alt = 'hand icon';
     right.appendChild(right_hand_img);
 

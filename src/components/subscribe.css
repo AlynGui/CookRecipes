@@ -3,7 +3,7 @@
     max-width: 88.89vw;
     aspect-ratio: 1280/442;
     margin: 0 auto;
-    background-image: url('./src/images/MaskGroup.png');
+    background-image: url('/images/MaskGroup.png');
     background-size: cover;
     background-position: center;
     display: flex;

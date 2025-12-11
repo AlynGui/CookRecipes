@@ -1,7 +1,7 @@
 .adCard {
     width: 27.77vw;
     height: 30.14vw;
-    background-image: url('./src/images/Ads@2x.png');
+    background-image: url('/images/Ads@2x.png');
     background-size: cover;
     background-position: center;
     display: flex;

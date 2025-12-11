@@ -9,7 +9,7 @@ import { contactCard } from './components/contactCard';
 const recipeData = [
   {
     id: 1,
-    imageSrc: './src/images/Dish12@2x.png',
+    imageSrc: '/images/Dish12@2x.png',
     imageAlt: 'Healthy Japanese Fried Rice with Asparagus',
     title: 'Healthy Japanese Fried Rice with Asparagus',
     content: "This healthy Japanese fried rice with asparagus is a quick and easy meal that is packed with flavor and nutrients. Made with brown rice, fresh asparagus, and a variety of vegetables, this dish is perfect for a light lunch or dinner. The combination of soy sauce, ginger, and garlic gives it a delicious umami flavor that will satisfy your taste buds. Plus, it's gluten-free and can be made vegan by omitting the egg. Enjoy this tasty and nutritious meal in under 30 minutes!",
@@ -48,7 +48,7 @@ const recipeData = [
 
   {
     id: 2,
-    imageSrc: './src/images/Dish1@2x.png',
+    imageSrc: '/images/Dish1@2x.png',
     imageAlt: 'Spicy delicious chicken wings',
     title: 'Spicy Delicious Chicken Wings',
     content: "Crispy oven-baked chicken wings tossed in a sticky, spicy glaze. Perfect as an appetizer or game-day snack. Balance heat with honey and a splash of soy for umami.",
@@ -86,7 +86,7 @@ const recipeData = [
 
   {
     id: 3,
-    imageSrc: './src/images/Dish2@2x.png',
+    imageSrc: '/images/Dish2@2x.png',
     imageAlt: 'Big and Juicy Wagyu Beef Cheeseburger',
     title: 'Big and Juicy Wagyu Beef Cheeseburger',
     content: "A decadent Wagyu beef burger topped with melted cheese, caramelized onions, and a tangy special sauce. Rich, juicy, and perfect for a special burger night.",
@@ -122,7 +122,7 @@ const recipeData = [
 
   {
     id: 4,
-    imageSrc: './src/images/Dish3@2x.png',
+    imageSrc: '/images/Dish3@2x.png',
     imageAlt: 'Fresh Lime Roasted Salmon with Ginger Sauce',
     title: 'Fresh Lime Roasted Salmon with Ginger Sauce',
     content: "Oven-roasted salmon fillets brightened by fresh lime and a warm ginger-soy glaze. Quick, healthy, and elegant enough for guests.",
@@ -156,7 +156,7 @@ const recipeData = [
 
   {
     id: 5,
-    imageSrc: './src/images/Dish4@2x.png',
+    imageSrc: '/images/Dish4@2x.png',
     imageAlt: 'Strawberry Oatmeal Pancake with Honey Syrup',
     title: 'Strawberry Oatmeal Pancake with Honey Syrup',
     content: "Hearty oatmeal pancakes studded with fresh strawberries and drizzled with honey syrup—great for a comforting breakfast that's not too heavy.",
@@ -191,7 +191,7 @@ const recipeData = [
 
   {
     id: 6,
-    imageSrc: './src/images/Dish5@2x.png',
+    imageSrc: '/images/Dish5@2x.png',
     imageAlt: 'Fresh and Healthy Mixed Mayonnaise Salad',
     title: 'Fresh and Healthy Mixed Mayonnaise Salad',
     content: "A colorful mixed salad with crunchy vegetables and a light mayonnaise-based dressing. Can be served as a side or a light meal with added protein.",
@@ -223,7 +223,7 @@ const recipeData = [
 
   {
     id: 7,
-    imageSrc: './src/images/Dish6@2x.png',
+    imageSrc: '/images/Dish6@2x.png',
     imageAlt: 'Chicken Meatballs with Cream Cheese',
     title: 'Chicken Meatballs with Cream Cheese',
     content: "Tender chicken meatballs with a creamy cheese center—baked or pan-fried and served with a savory sauce. A fun twist that keeps meatballs moist.",
@@ -258,7 +258,7 @@ const recipeData = [
 
   {
     id: 8,
-    imageSrc: './src/images/Dish7@2x.png',
+    imageSrc: '/images/Dish7@2x.png',
     imageAlt: 'Fruity Pancake with Orange & Blueberry',
     title: 'Fruity Pancake with Orange & Blueberry',
     content: "Light and fluffy pancakes flavored with orange zest and studded with fresh blueberries—bright, fruity, and perfect for brunch.",
@@ -293,7 +293,7 @@ const recipeData = [
 
   {
     id: 9,
-    imageSrc: './src/images/Dish8@2x.png',
+    imageSrc: '/images/Dish8@2x.png',
     imageAlt: 'The Best Easy One Pot Chicken and Rice',
     title: 'The Best Easy One Pot Chicken and Rice',
     content: "A comforting one-pot meal with seasoned chicken, rice, and vegetables. Minimal cleanup and full of homey flavor.",
@@ -330,7 +330,7 @@ const recipeData = [
 
   {
     id: 10,
-    imageSrc: './src/images/Dish9@2x.png',
+    imageSrc: '/images/Dish9@2x.png',
     imageAlt: 'The Creamiest Creamy Chicken and Bacon Pasta',
     title: 'The Creamiest Creamy Chicken and Bacon Pasta',
     content: "A rich and indulgent pasta with tender chicken, crispy bacon, and a silky cream sauce. Comfort food at its best.",
@@ -366,7 +366,7 @@ const recipeData = [
 
   {
     id: 11,
-    imageSrc: './src/images/Dish10@2x.png',
+    imageSrc: '/images/Dish10@2x.png',
     imageAlt: 'Mixed Tropical Fruit Salad with Superfood Boosts',
     title: 'Mixed Tropical Fruit Salad with Superfood Boosts',
     content: "A refreshing tropical fruit salad topped with chia seeds, toasted coconut, and a lime-honey dressing—bright, healthy, and energizing.",
@@ -398,7 +398,7 @@ const recipeData = [
 
   {
     id: 12,
-    imageSrc: './src/images/Dish11@2x.png',
+    imageSrc: '/images/Dish11@2x.png',
     imageAlt: 'Juicy steak with crispy fries',
     title: 'Juicy Steak with Crispy Fries',
     content: "A perfectly seared steak paired with homemade crispy fries. Simple seasoning brings out the beefy flavor while fries get golden and crunchy.",
@@ -431,7 +431,7 @@ const recipeData = [
 
   {
     id: 13,
-    imageSrc: './src/images/Dish13@2x.png',
+    imageSrc: '/images/Dish13@2x.png',
     imageAlt: 'Cauliflower Walnut Vegetarian Taco Meat',
     title: 'Cauliflower Walnut Vegetarian Taco Meat',
     content: "A flavorful plant-based taco filling made from cauliflower and walnuts, seasoned to mimic taco meat texture and taste—great for vegetarian tacos or bowls.",
@@ -466,7 +466,7 @@ const recipeData = [
 
   {
     id: 14,
-    imageSrc: './src/images/Dish14@2x.png',
+    imageSrc: '/images/Dish14@2x.png',
     imageAlt: 'Rainbow Chicken Salad with Almond Honey Mustard Dressing',
     title: 'Rainbow Chicken Salad with Almond Honey Mustard Dressing',
     content: "A colorful salad with shredded chicken, crunchy veggies, and a nutty honey-mustard dressing—bright, filling, and great for meal prep.",
@@ -496,7 +496,7 @@ const recipeData = [
 
   {
     id: 15,
-    imageSrc: './src/images/Dish15@2x.png',
+    imageSrc: '/images/Dish15@2x.png',
     imageAlt: 'Barbeque Spicy Sandwiches with Chips',
     title: 'Barbeque Spicy Sandwiches with Chips',
     content: "Smoky barbeque-spiced pulled meat (or plant-based alternative) piled on toasted buns with spicy slaw and a side of chips—satisfying and bold.",
@@ -525,7 +525,7 @@ const recipeData = [
 
   {
     id: 16,
-    imageSrc: './src/images/Dish16@2x.png',
+    imageSrc: '/images/Dish16@2x.png',
     imageAlt: 'Firecracker Vegan Lettuce Wraps - Spicy!',
     title: 'Firecracker Vegan Lettuce Wraps - Spicy!',
     content: "A spicy, crunchy vegan filling served in crisp lettuce leaves—loaded with veggies, hoisin, and a kick of chili for a light, flavorful bite.",
@@ -558,7 +558,7 @@ const recipeData = [
 
   {
     id: 17,
-    imageSrc: './src/images/Dish17@2x.png',
+    imageSrc: '/images/Dish17@2x.png',
     imageAlt: 'Chicken Ramen Soup with Mushroom',
     title: 'Chicken Ramen Soup with Mushroom',
     content: "A comforting bowl of chicken ramen with savory mushroom broth, tender chicken, noodles, and soft-boiled egg—perfect for chilly nights.",

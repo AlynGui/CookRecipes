@@ -22,7 +22,7 @@ export function contactCard(): HTMLElement {
     const left_2 = document.createElement('div');
     left_2.className = 'contact-card-left-2';
     const left_2_img = document.createElement('img');
-    left_2_img.src = './src/images/contact_chief@2x.png';
+    left_2_img.src = '/images/contact_chief@2x.png';
     left_2_img.alt = 'contact us icon';
     left_2.appendChild(left_2_img);
     card.appendChild(left_2);

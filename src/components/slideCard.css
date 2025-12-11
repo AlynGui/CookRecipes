@@ -18,7 +18,7 @@
     align-items: flex-start;
     justify-content: space-between;
     z-index: 0;
-    background-image: url('./src/images/slide-left-bg.png');
+    background-image: url('/images/slide-left-bg.png');
     background-size: cover;
     background-position: center;
 }

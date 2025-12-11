@@ -30,15 +30,15 @@ export function Card2(props: CardProps): HTMLElement {
 
     const likeInner = document.createElement('img');
     likeInner.className = 'card2-like-inner';
-    likeInner.src = './src/images/Heart2.svg';
+    likeInner.src = '/images/Heart2.svg';
     likeInner.alt = 'like icon';
     likeOuter.appendChild(likeInner);
     likeInner.onclick = (event) => {
         event.stopPropagation();
         if (likeInner.src.includes('Heart1.svg')) {
-            likeInner.src = './src/images/Heart2.svg';
+            likeInner.src = '/images/Heart2.svg';
         } else {
-            likeInner.src = './src/images/Heart1.svg';
+            likeInner.src = '/images/Heart1.svg';
         }
     };
 
@@ -57,7 +57,7 @@ export function Card2(props: CardProps): HTMLElement {
 
     const minuteImg = document.createElement('img');
     minuteImg.className = 'card2-minuteImg';
-    minuteImg.src = './src/images/Timer.svg';
+    minuteImg.src = '/images/Timer.svg';
     minuteImg.alt = 'clock icon';
     minutesContainer.appendChild(minuteImg);
     const minutesToPrepare = document.createElement('span');
@@ -71,7 +71,7 @@ export function Card2(props: CardProps): HTMLElement {
 
     const styleImg = document.createElement('img');
     styleImg.className = 'card2-styleImg';
-    styleImg.src = './src/images/ForkKnife.svg';
+    styleImg.src = '/images/ForkKnife.svg';
     styleImg.alt = 'style icon';
     styleContainer.appendChild(styleImg);
     const foodStyle = document.createElement('span');

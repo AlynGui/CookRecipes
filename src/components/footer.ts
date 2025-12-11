@@ -13,7 +13,7 @@ export function Footer(): HTMLElement {
     const footerGroup875Text = document.createElement('p');
     const footerGroup875Image = document.createElement('img');
     footerGroup875Text.textContent = 'Where every bite tells a story and every recipe sparks joy.';
-    footerGroup875Image.src = './src/images/foodieland..svg';
+    footerGroup875Image.src = '/images/foodieland..svg';
     footerGroup875Image.addEventListener('click', () => {
         window.location.href = './index.html';
     });
@@ -56,11 +56,11 @@ export function Footer(): HTMLElement {
     const instagram = document.createElement('img');
     const facebook = document.createElement('img');
     const twitter = document.createElement('img');
-    instagram.src = './src/images/004-instagram.svg';
+    instagram.src = '/images/004-instagram.svg';
     instagram.alt = 'Instagram';
-    facebook.src = './src/images/001-facebook.svg';
+    facebook.src = '/images/001-facebook.svg';
     facebook.alt = 'Facebook';
-    twitter.src = './src/images/003-twitter.svg';
+    twitter.src = '/images/003-twitter.svg';
     twitter.alt = 'Twitter';
     footerSocials.appendChild(facebook);
     footerSocials.appendChild(twitter);

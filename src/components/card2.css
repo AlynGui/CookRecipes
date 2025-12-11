@@ -1,7 +1,7 @@
 .card2 {
     width: 27.77vw;
     height: 30.14vw;
-    background-image: url('./src/images/card2-bg.png');
+    background-image: url('/images/card2-bg.png');
     background-size: cover;
     background-position: center;
     border-radius: 2.08vw;

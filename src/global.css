@@ -254,7 +254,7 @@ body {
   width: 100%;
   height: 66.94vw;
   margin-bottom: 11.11vw;
-  background-image: url('./src/images/MainSection5Bg.png');
+  background-image: url('/images/MainSection5Bg.png');
   background-size: cover;
   background-position: center;
 }

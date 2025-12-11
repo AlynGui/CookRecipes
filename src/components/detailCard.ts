@@ -28,7 +28,7 @@ export function detailCard(props: DetailCardProps): HTMLElement {
     const leftR2_1 = document.createElement('div');
     leftR2_1.className = 'detail-card-left-r2-1';
     const leftR2_1_img = document.createElement('img');
-    leftR2_1_img.src = './src/images/author.svg';
+    leftR2_1_img.src = '/images/author.svg';
     leftR2_1_img.alt = 'author icon';
     leftR2_1.appendChild(leftR2_1_img);
     const leftR2_1_span1 = document.createElement('span');
@@ -44,7 +44,7 @@ export function detailCard(props: DetailCardProps): HTMLElement {
     const leftR2_2 = document.createElement('div');
     leftR2_2.className = 'detail-card-left-r2-2';
     const leftR2_2_img = document.createElement('img');
-    leftR2_2_img.src = './src/images/Timer.svg';
+    leftR2_2_img.src = '/images/Timer.svg';
     leftR2_2_img.alt = 'timer icon';
     leftR2_2.appendChild(leftR2_2_img);
     const leftR2_2_span = document.createElement('span');
@@ -56,7 +56,7 @@ export function detailCard(props: DetailCardProps): HTMLElement {
     const leftR2_3 = document.createElement('div');
     leftR2_3.className = 'detail-card-left-r2-3';
     const leftR2_3_img = document.createElement('img');
-    leftR2_3_img.src = './src/images/ForkKnife.svg';
+    leftR2_3_img.src = '/images/ForkKnife.svg';
     leftR2_3_img.alt = 'food style icon';
     leftR2_3.appendChild(leftR2_3_img);
     const leftR2_3_span = document.createElement('span');
@@ -88,7 +88,7 @@ export function detailCard(props: DetailCardProps): HTMLElement {
     const rightR1_1_top = document.createElement('div');
     rightR1_1_top.className = 'detail-card-right-r1-top';
     const rightR1_1_img = document.createElement('img');
-    rightR1_1_img.src = './src/images/printer.svg';
+    rightR1_1_img.src = '/images/printer.svg';
     rightR1_1_img.alt = 'print icon';
     rightR1_1_top.appendChild(rightR1_1_img);
     rightR1_1.appendChild(rightR1_1_top);
@@ -103,7 +103,7 @@ export function detailCard(props: DetailCardProps): HTMLElement {
     const rightR1_2_top = document.createElement('div');
     rightR1_2_top.className = 'detail-card-right-r1-top';
     const rightR1_2_img = document.createElement('img');
-    rightR1_2_img.src = './src/images/share.svg';
+    rightR1_2_img.src = '/images/share.svg';
     rightR1_2_img.alt = 'share icon';
     rightR1_2_top.appendChild(rightR1_2_img);
     rightR1_2.appendChild(rightR1_2_top);
