@@ -1,0 +1,31 @@
+.adCard {
+    width: 27.77vw;
+    height: 30.14vw;
+    background-image: url('./src/images/Ads@2x.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adCard .adCard-title {
+    width: 12.85vw;
+    height: auto;
+    margin-top: 1.67vw;
+    font-family: 'Lobster', cursive;
+    font-size: 1.67vw;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.adCard .adCard-website {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.97vw;
+    font-weight: 500;
+    color: rgb(255, 255, 255, 0.6);
+    margin-top: 19.79vw;
+
+}

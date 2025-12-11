@@ -1,0 +1,172 @@
+.slideCard {
+    width: 100%;
+    max-width: 88.89vw;
+    aspect-ratio: 1280/640;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.slideCard .slideCard-left {
+    width: 43.0556vw;
+    height: 100%;
+    padding: 3.47vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    z-index: 0;
+    background-image: url('./src/images/slide-left-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.slideCard .slideCard-left .slideCard-left-top1 {
+    width: 10.83vw;
+    height: 3.125vw;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 2.08vw;
+    font-size: 0.97vw;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.90vw;
+}
+
+.slideCard .slideCard-left .slideCard-left-top2 {
+    font-size: 4.44vw;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    color: rgb(0, 0, 0);
+    text-wrap: wrap;
+}
+
+.slideCard .slideCard-left .slideCard-left-top3 {
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.94vw;
+    color: rgb(0, 0, 0, 0.6);
+}
+
+.slideCard .slideCard-left .slideCard-left-top4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.11vw;
+}
+
+.slideCard .slideCard-left .slideCard-left-top4 div {
+    width: 9.65vw;
+    height: 2.78vw;
+    background-color: rgba(0, 0, 0, 0.05);
+    color: rgba(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 2.08vw;
+    font-size: 0.97vw;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.69vw;
+}
+
+.slideCard .slideCard-left .slideCard-left-top4 .slideCard-left-top4-time {
+    width: 9.65vw;
+    height: 2.78vw;
+}
+
+.slideCard .slideCard-left .slideCard-left-top4 .slideCard-left-top4-foodStyle {
+    width: 8.26vw;
+    height: 2.78vw;
+}
+
+.slideCard .slideCard-left .slideCard-left-top5 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slideCard .slideCard-left .slideCard-left-top5-1 {
+    display: grid;
+    grid-template-columns: 3.47vw 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "image author"
+        "image date";
+    gap: 1.11vw;
+}
+
+.slideCard .slideCard-left .slideCard-left-top5-1 img {
+    grid-area: image;
+    width: 3.47vw;
+    height: 3.47vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.slideCard .slideCard-left .slideCard-left-top5-1 .author-name {
+    grid-area: author;
+    font-size: 1.11vw;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    letter-spacing: -0.02em;
+    align-self: center;
+}
+
+.slideCard .slideCard-left .slideCard-left-top5-1 .date-posted {
+    grid-area: date;
+    font-size: 0.97vw;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+    letter-spacing: -0.02em;
+    align-self: center;
+}
+
+.slideCard .slideCard-left .slideCard-left-top5 .slideCard-left-top5-2 {
+    width: 13.89vw;
+    height: 4.17vw;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 1.11vw;
+    font-size: 0.97vw;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.69vw;
+}
+
+.slideCard .slideCard-right {
+    width: 45.83vw;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+}
+
+.slideCard .slideCard-right img:first-of-type {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 2.22vw 2.22vw 0;
+    display: block;
+}
+
+.slideCard .slideCard-right :last-child {
+    position: absolute;
+    right: 38.89vw;
+    top: 3.47vw;
+    z-index: 10;
+}

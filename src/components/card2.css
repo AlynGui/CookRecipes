@@ -1,0 +1,86 @@
+.card2 {
+    width: 27.77vw;
+    height: 30.14vw;
+    background-image: url('./src/images/card2-bg.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 2.08vw;
+    padding: 1.11vw;
+    cursor: pointer;
+}
+
+.card2:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 2.08vw;
+}
+
+.card2 .card2-image-div {
+    width: 25.56vw;
+    height: 17.36vw;
+    overflow: hidden;
+    position: relative;
+    border-radius: 1.39vw;
+}
+
+.card2 .card2-image-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.card2 .card2-div-image .card2-like-outer {
+    position: absolute;
+    top: 1.39vw;
+    right: 1.39vw;
+    width: 3.33vw;
+    height: 3.33vw;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+
+.card2 .card2-div-image .card2-like-outer .card2-like-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1.67vw;
+    height: 1.67vw;
+    cursor: pointer;
+}
+
+.card2 .card2-title {
+    width: 100%;
+    height: 3.61vw;
+    margin-top: 1.67vw;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.67vw;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: -0.04em;
+    line-height: 2.22vw;
+}
+
+.card2 .card2-bottomContainer {
+    margin-top: 1.67vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.97vw;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+    letter-spacing: -0.02em;
+}
+
+.card2 .card2-bottomContainer img {
+    width: 1.67vw;
+    height: 1.67vw;
+    margin-right: 0.69vw;
+}
+
+.card2 .card2-bottomContainer .card2-minutesContainer {
+    margin-right: 1.67vw;
+}

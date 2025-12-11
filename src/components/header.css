@@ -1,0 +1,52 @@
+.header {
+    width: 100%;
+    aspect-ratio: 1440/110;
+}
+
+.header .header-logo {
+    cursor: pointer;
+}
+
+.header-inner {
+    width: 100%;
+    max-width: 88.89vw;
+    aspect-ratio: 1280/30;
+    margin: 2.78vw auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4.17vw;
+}
+
+.header-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.78vw;
+}
+
+.header-line {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.header-nav a {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.11vw;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+}
+
+.header-socials img {
+    cursor: pointer;
+}

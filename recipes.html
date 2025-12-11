@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="./src/global.css" rel="stylesheet">
+  <title>Recipes</title>
+</head>
+
+<body>
+  <div id="page-loading">
+    <div class="spinner"></div>
+    <p>Loading...</p>
+  </div>
+  <main id="app" class="app-hidden">
+    <section id="recipes-section1">
+      <div id="recipes-section1-container">
+        <div id="recipes-section1-top">
+          <p>Recipes</p>
+        </div>
+        <div id="recipes-section1-middle">
+          <p>Easy to follow, quick to cook, and always delicious—find your next favorite dish here.</p>
+        </div>
+        <div id="recipes-section1-bottom">
+          <input type="text" id="recipes-section1-searchInput" placeholder="Search recipes..." />
+          <button id="recipes-section1-searchBtn">Search</button>
+        </div>
+      </div>
+    </section>
+    <section id="recipes-section2">
+      <div id="recipes-section2-container">
+        <div id="recipes-section2-list">
+        </div>
+        <nav id="recipes-section2-pagination" aria-label="Pagination">
+          <button id="recipes-section2-prevBtn" disabled>Prev</button>
+          <div id="recipes-section2-pageNumbers"></div>
+          <button id="recipes-section2-nextBtn">Next</button>
+        </nav>
+      </div>
+    </section>
+    <section id="recipes-section3">
+    </section>
+  </main>
+  <script type="module" src="/src/recipes.ts"></script>
+</body>
+
+</html>

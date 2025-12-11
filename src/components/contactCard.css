@@ -1,0 +1,126 @@
+.contact-card {
+    width: 100%;
+    max-width: 88.89vw;
+    height: 1280/773;
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 0 2.78vw;
+    grid-template-areas:
+        "left-1 middle-1 middle-1"
+        "left-2 middle-2 right-1"
+        "left-2 middle-3 right-2"
+        "left-2 middle-4 middle-4"
+        "left-3 middle-5 middle-5";
+}
+
+.contact-card .contact-card-left-1 {
+    grid-area: left-1;
+}
+
+.contact-card .contact-card-left-2 {
+    grid-area: left-2;
+    width: 100%;
+    height: 32.78vw;
+    overflow: hidden;
+}
+
+.contact-card .contact-card-left-2 img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.contact-card .contact-card-left-3 {
+    grid-area: left-3;
+}
+
+.contact-card .contact-card-middle-1 {
+    grid-area: middle-1;
+    font-size: 4.44vw;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    letter-spacing: -0.04em;
+    align-self: start;
+    justify-self: start;
+    margin-bottom: 5.56vw;
+}
+
+.contact-card .contact-card-middle-2 {
+    grid-area: middle-2;
+    align-self: end;
+}
+
+.contact-card .contact-card-middle-3 {
+    grid-area: middle-3;
+    align-self: end;
+}
+
+.contact-card p {
+    font-size: 0.83vw;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 1.39vw;
+    letter-spacing: -0.08em;
+    margin-bottom: 0.83vw;
+}
+
+.contact-card input,
+select,
+textarea {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1.11vw;
+    padding: 1.39vw;
+    font-size: 0.97vw;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    letter-spacing: -0.02em;
+    line-height: 1.67vw;
+}
+
+.contact-card input,
+select {
+    height: 4.17vw;
+}
+
+.contact-card textarea {
+    height: 13.89vw;
+}
+
+.contact-card .contact-card-middle-4 {
+    grid-area: middle-4;
+    align-self: end;
+}
+
+.contact-card .contact-card-middle-5 {
+    grid-area: middle-5;
+    align-self: end;
+    justify-self: start;
+    margin-top: 3.33vw;
+}
+
+.contact-card .contact-card-middle-5 button {
+    width: 12.5vw;
+    height: 4.44vw;
+    background-color: #000000;
+    border: none;
+    border-radius: 1.11vw;
+    font-size: 1.11vw;
+    font-weight: 600;
+    color: #FFFFFF;
+    letter-spacing: -0.02em;
+    line-height: 1.67vw;
+    cursor: pointer;
+}
+
+.contact-card .contact-card-right-1 {
+    grid-area: right-1;
+    align-self: end;
+}
+
+.contact-card .contact-card-right-2 {
+    grid-area: right-2;
+    align-self: end;
+}

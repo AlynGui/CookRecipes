@@ -1,0 +1,65 @@
+.subscribe-container {
+    width: 100%;
+    max-width: 88.89vw;
+    aspect-ratio: 1280/442;
+    margin: 0 auto;
+    background-image: url('./src/images/MaskGroup.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-container .subscribe-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 3.33vw;
+    font-weight: 600;
+    color: #000000;
+}
+
+.subscribe-container .subscribe-intro {
+    margin-top: 1.67vw;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.11vw;
+    font-weight: 400;
+    color: rgb(0, 0, 0, 0.6);
+    width: 43.06vw;
+    text-align: center;
+}
+
+.subscribe-container .subscribe-search {
+    margin-top: 4.44vw;
+    position: relative;
+    width: 33.33vw;
+    height: 5.56vw;
+}
+
+.subscribe-container .subscribe-search .subscribe-input {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.67vw;
+    border: none;
+    padding-left: 2.22vw;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.97vw;
+    font-weight: Medium;
+}
+
+.subscribe-container .subscribe-search .subscribe-button {
+    position: absolute;
+    right: 0.69vw;
+    top: 0.69vw;
+    width: 11.11vw;
+    height: 4.17vw;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.97vw;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 1.11vw;
+}

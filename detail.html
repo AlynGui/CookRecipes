@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="./src/global.css" rel="stylesheet">
+  <title>RecipeDetail</title>
+</head>
+
+<body>
+  <div id="page-loading">
+    <div class="spinner"></div>
+    <p>Loading...</p>
+  </div>
+  <main id="app" class="app-hidden">
+    <section id="detail-section1">
+      <div id="detail-section1-container">
+      </div>
+    </section>
+    <section id="detail-section2">
+      <div id="detail-section2-container">
+        <div id="detail-section2-left">
+          <div id="detail-section2-left-ingredients">
+            <h2>Ingredients</h2>
+            <ul id="detail-ingredients-list">
+            </ul>
+          </div>
+          <div id="detail-section2-left-directions">
+            <h2>Directions</h2>
+            <ul id="detail-directions-list">
+            </ul>
+          </div>
+        </div>
+        <div id="detail-section2-right">
+          <div id="detail-section2-right-other-recipe">
+            <h2>Other Recipe</h2>
+            <div id="detail-section2-right-other-recipe-container">
+            </div>
+            <div id="detail-section2-right-advertisement">
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="detail-section3">
+    </section>
+    <section id="detail-section4">
+      <div id="detail-section4-container">
+        <div id="detail-section4-top">
+          <p>You may like these recipe too</p>
+        </div>
+        <div id="detail-section4-bottom">
+        </div>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="/src/detail.ts"></script>
+</body>
+
+</html>
