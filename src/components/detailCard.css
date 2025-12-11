@@ -87,6 +87,11 @@
     gap: 1.11vw;
 }
 
+.detail-card-left-r2 img, .detail-card-right-r1 img {
+    width: 1.67vw;
+    height: 1.67vw;
+}
+
 .detail-card .detail-card-left-r3 {
     grid-area: left-row3;
     width: 100%;

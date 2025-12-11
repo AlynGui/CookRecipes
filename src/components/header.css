@@ -4,6 +4,8 @@
 }
 
 .header .header-logo {
+    width: 7.64vw;
+    height: 2.08vw;
     cursor: pointer;
 }
 
@@ -48,5 +50,7 @@
 }
 
 .header-socials img {
+    width: 1.53vw;
+    height: 1.53vw;
     cursor: pointer;
 }

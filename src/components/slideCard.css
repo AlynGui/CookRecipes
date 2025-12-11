@@ -39,6 +39,11 @@
     gap: 0.90vw;
 }
 
+.slideCard .slideCard-left .slideCard-left-top1 img {
+    width: 1.67vw;
+    height: 1.67vw;
+}
+
 .slideCard .slideCard-left .slideCard-left-top2 {
     font-size: 4.44vw;
     font-weight: 600;
@@ -86,6 +91,11 @@
 .slideCard .slideCard-left .slideCard-left-top4 .slideCard-left-top4-foodStyle {
     width: 8.26vw;
     height: 2.78vw;
+}
+
+.slideCard .slideCard-left .slideCard-left-top4 img {
+    width: 1.67vw;
+    height: 1.67vw;
 }
 
 .slideCard .slideCard-left .slideCard-left-top5 {
@@ -149,6 +159,11 @@
     gap: 0.69vw;
 }
 
+.slideCard .slideCard-left .slideCard-left-top5 .slideCard-left-top5-2 img {
+    width: 1.67vw;
+    height: 1.67vw;
+}
+
 .slideCard .slideCard-right {
     width: 45.83vw;
     height: 100%;
@@ -169,4 +184,6 @@
     right: 38.89vw;
     top: 3.47vw;
     z-index: 10;
+    width: 10.42vw;
+    height: 10.42vw;
 }

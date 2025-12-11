@@ -13,7 +13,7 @@ export function Footer(): HTMLElement {
     const footerGroup875Text = document.createElement('p');
     const footerGroup875Image = document.createElement('img');
     footerGroup875Text.textContent = 'Where every bite tells a story and every recipe sparks joy.';
-    footerGroup875Image.src = '/images/foodieland..svg';
+    footerGroup875Image.src = '/images/Foodieland..svg';
     footerGroup875Image.addEventListener('click', () => {
         window.location.href = './index.html';
     });
