@@ -1,4 +1,3 @@
-import './global.css';
 import { Header } from './components/header.ts';
 import { Footer } from './components/footer.ts';
 import { Subscribe } from './components/subscribe.ts';
@@ -662,7 +661,6 @@ if (!detail_section3) {
   throw new Error('Element with ID "detail-section3" not found.');
 }
 detail_section3.appendChild(Subscribe());
-
 
 // Main Section 4 - Dish Cards
 const detail_section4_bottom = document.querySelector('#detail-section4-bottom');

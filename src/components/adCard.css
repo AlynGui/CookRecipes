@@ -29,3 +29,39 @@
     margin-top: 19.79vw;
 
 }
+
+/* Mobile Responsive Styles (max-width: 767px) */
+@media (max-width: 767px) {
+.adCard {
+        width: 74.67vw;
+        height: 85.33vw;
+    }
+.adCard .adCard-title {
+        width: 53.33vw;
+        margin-top: 5.33vw;
+        font-size: 4.8vw;
+        line-height: 6.4vw;
+    }
+.adCard .adCard-website {
+        font-size: 3.73vw;
+        margin-top: 58.67vw;
+    }
+}
+
+/* Tablet Responsive Styles (768px-1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+.adCard {
+        width: 40vw;
+        height: 36.46vw;
+    }
+.adCard .adCard-title {
+        width: 23.44vw;
+        margin-top: 2.34vw;
+        font-size: 2.08vw;
+        line-height: 2.86vw;
+    }
+.adCard .adCard-website {
+        font-size: 1.69vw;
+        margin-top: 23.44vw;
+    }
+}

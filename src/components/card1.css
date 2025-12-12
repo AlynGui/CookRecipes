@@ -80,3 +80,94 @@
 .card1 .card1-bottomContainer .card1-minutesContainer {
     margin-right: 1.67vw;
 }
+
+/* Mobile Responsive Styles (max-width: 767px) */
+@media (max-width: 767px) {
+.card1 {
+        max-width: 74.67vw;
+        max-height: 85.33vw;
+    }
+.card1:hover {
+        border-radius: 4.27vw;
+    }
+.card1 .card1-image-div {
+        height: 48vw;
+        border-radius: 4.27vw;
+    }
+.card1 .card1-image-div .card1-like-outer {
+        top: 3.2vw;
+        right: 3.2vw;
+        width: 9.6vw;
+        height: 9.6vw;
+    }
+.card1 .card1-image-div .card1-like-outer .card1-like-inner {
+        width: 4.8vw;
+        height: 4.8vw;
+    }
+.card1 .card1-title {
+        height: auto;
+        margin-top: 3.2vw;
+        font-size: 4.27vw;
+        line-height: 5.87vw;
+        min-height: 11.73vw;
+    }
+.card1 .card1-bottomContainer {
+        margin-top: 3.2vw;
+        font-size: 3.73vw;
+        flex-wrap: wrap;
+        gap: 2.13vw;
+    }
+.card1 .card1-bottomContainer img {
+        width: 4.27vw;
+        height: 4.27vw;
+        margin-right: 1.6vw;
+    }
+.card1 .card1-bottomContainer .card1-minutesContainer {
+        margin-right: 3.2vw;
+    }
+}
+
+/* Tablet Responsive Styles (768px-1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+.card1 {
+        max-width: 40vw;
+        max-height: 36.46vw;
+    }
+.card1:hover {
+        border-radius: 1.82vw;
+    }
+.card1 .card1-image-div {
+        height: 20.83vw;
+        border-radius: 1.82vw;
+    }
+.card1 .card1-image-div .card1-like-outer {
+        top: 1.3vw;
+        right: 1.3vw;
+        width: 4.17vw;
+        height: 4.17vw;
+    }
+.card1 .card1-image-div .card1-like-outer .card1-like-inner {
+        width: 2.08vw;
+        height: 2.08vw;
+    }
+.card1 .card1-title {
+        height: auto;
+        margin-top: 1.3vw;
+        font-size: 1.95vw;
+        line-height: 2.6vw;
+        min-height: 5.21vw;
+    }
+.card1 .card1-bottomContainer {
+        margin-top: 1.3vw;
+        font-size: 1.69vw;
+        gap: 0.78vw;
+    }
+.card1 .card1-bottomContainer img {
+        width: 1.82vw;
+        height: 1.82vw;
+        margin-right: 0.65vw;
+    }
+.card1 .card1-bottomContainer .card1-minutesContainer {
+        margin-right: 1.3vw;
+    }
+}

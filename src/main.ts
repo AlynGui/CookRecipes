@@ -1,4 +1,3 @@
-import './global.css';
 import { Header } from './components/header.ts';
 import { Footer } from './components/footer.ts';
 import { Subscribe } from './components/subscribe.ts';

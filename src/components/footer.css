@@ -77,3 +77,99 @@
 .footer-lower {
     padding: 3.33vw 0;
 }
+
+/* Mobile Responsive Styles (max-width: 767px) */
+@media (max-width: 767px) {
+.footer {
+        max-width: 100%;
+        aspect-ratio: auto;
+        padding: 0 4.27vw;
+    }
+.footer-upper {
+        flex-direction: column;
+        gap: 6.4vw;
+        margin-bottom: 10.67vw;
+        text-align: center;
+    }
+.footer-upper .footer-group875 {
+        font-size: 4.27vw;
+        order: 2;
+    }
+.footer-upper .footer-group875 img {
+        width: 32vw;
+        height: auto;
+        margin-bottom: 4.27vw;
+    }
+.footer-upper .footer-group824 {
+        flex-direction: column;
+        gap: 4.27vw;
+        order: 1;
+    }
+.footer-upper .footer-group824 {
+        font-size: 4.27vw;
+    }
+.footer-lower {
+        grid-template-columns: 1fr;
+        gap: 6.4vw;
+        text-align: center;
+        margin-bottom: 10.67vw;
+    }
+.footer-lower .footer-copyright {
+        font-size: 3.73vw;
+        order: 2;
+    }
+.footer-lower .footer-socials {
+        justify-self: center;
+        gap: 6.4vw;
+        order: 1;
+    }
+.footer-lower .footer-socials img {
+        width: 5.33vw;
+        height: 5.33vw;
+    }
+.footer-lower {
+        padding: 10.67vw 0;
+    }
+}
+
+/* Tablet Responsive Styles (768px-1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+.footer {
+        max-width: 100%;
+        aspect-ratio: auto;
+        padding: 0 4.17vw;
+    }
+.footer-upper {
+        margin-bottom: 6.25vw;
+    }
+.footer-upper .footer-group875 {
+        font-size: 2.08vw;
+    }
+.footer-upper .footer-group875 img {
+        width: 18.23vw;
+        height: auto;
+        margin-bottom: 2.08vw;
+    }
+.footer-upper .footer-group824 {
+        gap: 4.17vw;
+    }
+.footer-upper .footer-group824 {
+        font-size: 2.08vw;
+    }
+.footer-lower {
+        margin-bottom: 6.25vw;
+    }
+.footer-lower .footer-copyright {
+        font-size: 2.08vw;
+    }
+.footer-lower .footer-socials {
+        gap: 4.17vw;
+    }
+.footer-lower .footer-socials img {
+        width: 2.86vw;
+        height: 2.86vw;
+    }
+.footer-lower {
+        padding: 6.25vw 0;
+    }
+}

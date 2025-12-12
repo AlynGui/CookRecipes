@@ -187,3 +187,21 @@
     width: 10.42vw;
     height: 10.42vw;
 }
+
+/* Mobile Responsive Styles (max-width: 767px) */
+@media (max-width: 767px) {
+.slideCard-left-top3, .slideCard-left-top1, .slideCard-left-top4, .slideCard-left-top5-1{
+        display: none!important;
+    }
+
+    .slideCard-left-top5-2 {
+        width: 22vw!important;
+        height: 8vw!important;
+        font-size: 2.2vw!important;
+    }
+
+    .slideCard-left-top5-2 img {
+        width: 3vw!important;
+        height: 3vw!important;  
+    }
+}

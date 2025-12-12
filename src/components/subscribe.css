@@ -63,3 +63,87 @@
     cursor: pointer;
     border-radius: 1.11vw;
 }
+
+/* Mobile Responsive Styles (max-width: 767px) */
+@media (max-width: 767px) {
+.subscribe-container {
+        max-width: 100%;
+        aspect-ratio: 320/240;
+        padding: 10.67vw 5.33vw;
+        min-height: 80.0vw;
+    }
+.subscribe-container .subscribe-title {
+        font-size: 6.4vw;
+        text-align: center;
+        line-height: 8.0vw;
+    }
+.subscribe-container .subscribe-intro {
+        margin-top: 4.8vw;
+        font-size: 3.73vw;
+        line-height: 5.33vw;
+        width: 90%;
+        max-width: 74.67vw;
+    }
+.subscribe-container .subscribe-search {
+        margin-top: 6.4vw;
+        width: 90%;
+        max-width: 74.67vw;
+        height: 12.8vw;
+    }
+.subscribe-container .subscribe-search .subscribe-input {
+        border-radius: 6.4vw;
+        padding-left: 4.27vw;
+        padding-right: 26.67vw;
+        font-size: 3.73vw;
+    }
+.subscribe-container .subscribe-search .subscribe-button {
+        right: 1.07vw;
+        top: 1.07vw;
+        width: 24vw;
+        height: 10.67vw;
+        font-size: 3.73vw;
+        border-radius: 5.33vw;
+    }
+}
+
+/* Tablet Responsive Styles (768px-1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+.subscribe-container {
+        max-width: 100%;
+        aspect-ratio: 768/320;
+        padding: 6.51vw 3.91vw;
+        min-height: 45.57vw;
+    }
+.subscribe-container .subscribe-title {
+        font-size: 3.65vw;
+        text-align: center;
+        line-height: 4.43vw;
+    }
+.subscribe-container .subscribe-intro {
+        margin-top: 2.34vw;
+        font-size: 2.08vw;
+        line-height: 2.86vw;
+        width: 80%;
+        max-width: 52.08vw;
+    }
+.subscribe-container .subscribe-search {
+        margin-top: 3.65vw;
+        width: 70%;
+        max-width: 52.08vw;
+        height: 6.77vw;
+    }
+.subscribe-container .subscribe-search .subscribe-input {
+        border-radius: 3.39vw;
+        padding-left: 2.6vw;
+        padding-right: 15.63vw;
+        font-size: 1.95vw;
+    }
+.subscribe-container .subscribe-search .subscribe-button {
+        right: 0.52vw;
+        top: 0.52vw;
+        width: 14.32vw;
+        height: 5.73vw;
+        font-size: 1.95vw;
+        border-radius: 2.86vw;
+    }
+}

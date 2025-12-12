@@ -124,3 +124,201 @@ select {
     grid-area: right-2;
     align-self: end;
 }
+
+/* Mobile Responsive Styles (max-width: 767px) */
+@media (max-width: 767px) {
+.contact-card {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5.33vw;
+        padding: 5.33vw;
+    }
+.contact-card .contact-card-left-1 {
+        order: 1;
+    }
+.contact-card .contact-card-left-2 {
+        height: 53.33vw;
+        order: 2;
+    }
+.contact-card .contact-card-left-3 {
+        order: 9;
+    }
+.contact-card .contact-card-middle-1 {
+        font-size: 7.47vw;
+        line-height: 9.07vw;
+        margin-bottom: 6.4vw;
+        order: 3;
+        text-align: center;
+        width: 100%;
+    }
+.contact-card .contact-card-middle-2 {
+        order: 4;
+        align-self: flex-start;
+        width: 100%;
+    }
+    
+    .contact-card .contact-card-middle-3 {
+        order: 5;
+        align-self: flex-start;
+        width: 100%;
+    }
+.contact-card p {
+        font-size: 3.73vw;
+        line-height: 4.8vw;
+        margin-bottom: 2.13vw;
+        text-align: left;
+    }
+.contact-card input,
+    select,
+    textarea {
+        border-radius: 3.2vw;
+        padding: 2.67vw;
+        font-size: 4.27vw;
+        line-height: 5.33vw;
+    }
+.contact-card input,
+    select {
+        height: 12.8vw;
+    }
+.contact-card select {
+        background-position: right 3.2vw center;
+        background-size: 4.27vw;
+        padding-right: 10.67vw;
+    }
+.contact-card textarea {
+        height: 32.0vw;
+    }
+.contact-card .contact-card-middle-4 {
+        order: 6;
+        align-self: flex-start;
+        width: 100%;
+    }
+    
+    .contact-card .contact-card-middle-5 {
+        order: 11;
+        align-self: center;
+        margin-top: 5.33vw;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+.contact-card .contact-card-middle-5 button {
+        width: 42.67vw;
+        height: 12.8vw;
+        border-radius: 3.2vw;
+        font-size: 4.27vw;
+        line-height: 5.33vw;
+    }
+.contact-card .contact-card-right-1 {
+        order: 7;
+        align-self: flex-start;
+        width: 100%;
+    }
+    
+    .contact-card .contact-card-right-2 {
+        order: 8;
+        align-self: flex-start;
+        width: 100%;
+    }
+}
+
+/* Tablet Responsive Styles (768px-1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+.contact-card {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3.12vw;
+        padding: 3.12vw;
+    }
+.contact-card .contact-card-left-1 {
+        order: 1;
+    }
+.contact-card .contact-card-left-2 {
+        height: 39.06vw;
+        order: 2;
+    }
+.contact-card .contact-card-left-3 {
+        order: 9;
+    }
+.contact-card .contact-card-middle-1 {
+        font-size: 4.69vw;
+        line-height: 5.47vw;
+        margin-bottom: 3.65vw;
+        order: 3;
+        text-align: center;
+        width: 100%;
+    }
+.contact-card .contact-card-middle-2 {
+        order: 4;
+        align-self: flex-start;
+        width: 100%;
+    }
+    
+    .contact-card .contact-card-middle-3 {
+        order: 5;
+        align-self: flex-start;
+        width: 100%;
+    }
+.contact-card p {
+        font-size: 1.69vw;
+        line-height: 2.21vw;
+        margin-bottom: 1.3vw;
+        text-align: left;
+    }
+.contact-card input,
+    select,
+    textarea {
+        border-radius: 1.82vw;
+        padding: 1.3vw;
+        font-size: 1.95vw;
+        line-height: 2.34vw;
+    }
+.contact-card input,
+    select {
+        height: 5.73vw;
+    }
+.contact-card select {
+        background-position: right 1.82vw center;
+        background-size: 1.82vw;
+        padding-right: 4.69vw;
+    }
+.contact-card textarea {
+        height: 13.02vw;
+    }
+.contact-card .contact-card-middle-4 {
+        order: 6;
+        align-self: flex-start;
+        width: 100%;
+    }
+    
+    .contact-card .contact-card-middle-5 {
+        order: 11;
+        align-self: center;
+        margin-top: 3.12vw;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+.contact-card .contact-card-middle-5 button {
+        width: 18.23vw;
+        height: 5.73vw;
+        border-radius: 1.82vw;
+        font-size: 1.95vw;
+        line-height: 2.34vw;
+    }
+.contact-card .contact-card-right-1 {
+        order: 7;
+        align-self: flex-start;
+        width: 100%;
+    }
+    
+    .contact-card .contact-card-right-2 {
+        order: 8;
+        align-self: flex-start;
+        width: 100%;
+    }
+}

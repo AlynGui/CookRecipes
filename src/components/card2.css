@@ -30,7 +30,7 @@
     display: block;
 }
 
-.card2 .card2-div-image .card2-like-outer {
+.card2 .card2-image-div .card2-like-outer {
     position: absolute;
     top: 1.39vw;
     right: 1.39vw;
@@ -40,7 +40,7 @@
     border-radius: 50%;
 }
 
-.card2 .card2-div-image .card2-like-outer .card2-like-inner {
+.card2 .card2-image-div .card2-like-outer .card2-like-inner {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -83,4 +83,101 @@
 
 .card2 .card2-bottomContainer .card2-minutesContainer {
     margin-right: 1.67vw;
+}
+
+/* Mobile Responsive Styles (max-width: 767px) */
+@media (max-width: 767px) {
+.card2 {
+        width: 74.67vw;
+        height: 85.33vw;
+        border-radius: 5.33vw;
+        padding: 4.27vw;
+    }
+.card2:hover {
+        border-radius: 5.33vw;
+    }
+.card2 .card2-image-div {
+        width: 66.13vw;
+        height: 45.33vw;
+        border-radius: 4.27vw;
+    }
+.card2 .card2-image-div .card2-like-outer {
+        top: 4.27vw;
+        right: 4.27vw;
+        width: 9.6vw;
+        height: 9.6vw;
+    }
+.card2 .card2-image-div .card2-like-outer .card2-like-inner {
+        width: 4.8vw;
+        height: 4.8vw;
+    }
+.card2 .card2-title {
+        height: auto;
+        margin-top: 4.27vw;
+        font-size: 4.8vw;
+        line-height: 6.4vw;
+        min-height: 12.8vw;
+    }
+.card2 .card2-bottomContainer {
+        margin-top: 3.2vw;
+        font-size: 3.73vw;
+        flex-wrap: wrap;
+        gap: 2.13vw;
+    }
+.card2 .card2-bottomContainer img {
+        width: 4.27vw;
+        height: 4.27vw;
+        margin-right: 1.6vw;
+    }
+.card2 .card2-bottomContainer .card2-minutesContainer {
+        margin-right: 3.2vw;
+    }
+}
+
+/* Tablet Responsive Styles (768px-1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+.card2 {
+        width: 40vw;
+        height: 36.46vw;
+        border-radius: 2.34vw;
+        padding: 1.82vw;
+    }
+.card2:hover {
+        border-radius: 2.34vw;
+    }
+.card2 .card2-image-div {
+        width: 36.33vw;
+        height: 18.88vw;
+        border-radius: 1.82vw;
+    }
+.card2 .card2-image-div .card2-like-outer {
+        top: 1.82vw;
+        right: 1.82vw;
+        width: 4.17vw;
+        height: 4.17vw;
+    }
+.card2 .card2-image-div .card2-like-outer .card2-like-inner {
+        width: 2.08vw;
+        height: 2.08vw;
+    }
+.card2 .card2-title {
+        height: auto;
+        margin-top: 1.82vw;
+        font-size: 2.08vw;
+        line-height: 2.86vw;
+        min-height: 5.73vw;
+    }
+.card2 .card2-bottomContainer {
+        margin-top: 1.3vw;
+        font-size: 1.69vw;
+        gap: 0.78vw;
+    }
+.card2 .card2-bottomContainer img {
+        width: 1.82vw;
+        height: 1.82vw;
+        margin-right: 0.65vw;
+    }
+.card2 .card2-bottomContainer .card2-minutesContainer {
+        margin-right: 1.3vw;
+    }
 }

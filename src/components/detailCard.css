@@ -164,7 +164,6 @@
     margin-bottom: 1.67vw;
 }
 
-
 .detail-card .detail-card-right-r2 .detail-card-right-r2-nutrition {
     width: 100%;
     height: 2.64vw;
@@ -197,4 +196,216 @@
     line-height: 1.94vw;
     color: rgba(0, 0, 0, 0.6);
     margin-top: 11.60vw;
+}
+
+/* Mobile Responsive Styles (max-width: 767px) */
+@media (max-width: 767px) {
+.detail-card {
+        max-width: 100%;
+        aspect-ratio: unset;
+        display: flex;
+        flex-direction: column;
+        gap: 5.33vw;
+        padding: 5.33vw;
+    }
+.detail-card .detail-card-left-r1 {
+        font-size: 7.47vw;
+        line-height: 9.07vw;
+        margin-bottom: 5.33vw;
+        order: 1;
+    }
+.detail-card .detail-card-left-r2 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3.2vw;
+        margin-bottom: 6.4vw;
+        order: 3;
+    }
+.detail-card .detail-card-left-r2 .detail-card-left-r2-1 {
+        grid-template-columns: 10.67vw 1fr;
+        gap: 3.2vw;
+        padding: 0 4.27vw;
+        width: 100%;
+    }
+.detail-card .detail-card-left-r2 .detail-card-left-r2-1 img {
+        width: 10.67vw;
+        height: 10.67vw;
+    }
+.detail-card .detail-card-left-r2 .detail-card-left-r2-1 .author-name {
+        font-size: 4.27vw;
+        justify-self: start;
+    }
+.detail-card .detail-card-left-r2 .detail-card-left-r2-1 .date-posted {
+        font-size: 3.73vw;
+        justify-self: start;
+    }
+.detail-card .detail-card-left-r2 .detail-card-left-r2-2,
+    .detail-card-left-r2-3 {
+        height: 9.6vw;
+        font-size: 3.73vw;
+        padding: 0 4.27vw;
+        gap: 2.13vw;
+        border-left: none;
+        border-top: 0.27vw solid rgba(0, 0, 0, 0.1);
+        margin-top: 2.13vw;
+        padding-top: 2.13vw;
+        width: 100%;
+    }
+.detail-card-left-r2 img, .detail-card-right-r1 img {
+        width: 4.27vw;
+        height: 4.27vw;
+    }
+.detail-card .detail-card-left-r3 {
+        height: 64.0vw;
+        order: 2;
+    }
+.detail-card .detail-card-left-r3 img {
+        border-radius: 4.27vw;
+    }
+.detail-card .detail-card-left-r4 {
+        font-size: 4.27vw;
+        line-height: 6.4vw;
+        margin-top: 6.4vw;
+        order: 4;
+    }
+.detail-card .detail-card-right-r1 {
+        justify-content: center;
+        gap: 5.33vw;
+        margin: 5.33vw 0;
+        order: 5;
+    }
+.detail-card .detail-card-right-r1 .detail-card-right-r1-top {
+        width: 12.8vw;
+        height: 12.8vw;
+        border-radius: 6.4vw;
+    }
+.detail-card .detail-card-right-r1 .detail-card-right-r1-bottom {
+        font-size: 3.2vw;
+        margin-top: 2.13vw;
+    }
+.detail-card .detail-card-right-r2 {
+        height: auto;
+        border-radius: 4.27vw;
+        padding: 5.33vw;
+        margin: 5.33vw 0;
+        order: 6;
+    }
+.detail-card .detail-card-right-r2 .detail-card-right-r2-r1 {
+        font-size: 4.8vw;
+        margin-bottom: 4.27vw;
+    }
+.detail-card .detail-card-right-r2 .detail-card-right-r2-nutrition {
+        height: auto;
+        padding-bottom: 3.2vw;
+        margin-bottom: 3.2vw;
+    }
+.detail-card .detail-card-right-r2 .detail-card-right-r2-nutrition :first-child {
+        font-size: 3.73vw;
+    }
+.detail-card .detail-card-right-r2 .detail-card-right-r2-nutrition :last-child {
+        font-size: 3.73vw;
+    }
+.detail-card .detail-card-right-r2 .detail-card-right-r2-r7 {
+        font-size: 3.73vw;
+        line-height: 5.33vw;
+        margin-top: 5.33vw;
+    }
+}
+
+/* Tablet Responsive Styles (768px-1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+.detail-card {
+        max-width: 100%;
+        aspect-ratio: 1024/800;
+        gap: 0 3.13vw;
+        padding: 3.13vw;
+    }
+.detail-card .detail-card-left-r1 {
+        font-size: 4.69vw;
+        line-height: 5.47vw;
+        margin-bottom: 3.13vw;
+    }
+.detail-card .detail-card-left-r2 {
+        flex-wrap: wrap;
+        gap: 2.08vw;
+        margin-bottom: 3.65vw;
+    }
+.detail-card .detail-card-left-r2 .detail-card-left-r2-1 {
+        grid-template-columns: 4.69vw 1fr;
+        gap: 1.82vw;
+        padding: 0 2.34vw;
+    }
+.detail-card .detail-card-left-r2 .detail-card-left-r2-1 img {
+        width: 4.69vw;
+        height: 4.69vw;
+    }
+.detail-card .detail-card-left-r2 .detail-card-left-r2-1 .author-name {
+        font-size: 1.95vw;
+        justify-self: start;
+    }
+.detail-card .detail-card-left-r2 .detail-card-left-r2-1 .date-posted {
+        font-size: 1.69vw;
+        justify-self: start;
+    }
+.detail-card .detail-card-left-r2 .detail-card-left-r2-2,
+    .detail-card-left-r2-3 {
+        height: 4.17vw;
+        font-size: 1.69vw;
+        padding: 0 2.34vw;
+        gap: 1.3vw;
+    }
+.detail-card-left-r2 img, .detail-card-right-r1 img {
+        width: 1.95vw;
+        height: 1.95vw;
+    }
+.detail-card .detail-card-left-r3 {
+        height: 41.67vw;
+    }
+.detail-card .detail-card-left-r3 img {
+        border-radius: 2.34vw;
+    }
+.detail-card .detail-card-left-r4 {
+        font-size: 1.95vw;
+        line-height: 3.39vw;
+        margin-top: 3.65vw;
+    }
+.detail-card .detail-card-right-r1 {
+        gap: 2.34vw;
+    }
+.detail-card .detail-card-right-r1 .detail-card-right-r1-top {
+        width: 6.77vw;
+        height: 6.77vw;
+        border-radius: 3.39vw;
+    }
+.detail-card .detail-card-right-r1 .detail-card-right-r1-bottom {
+        font-size: 1.69vw;
+        margin-top: 1.3vw;
+    }
+.detail-card .detail-card-right-r2 {
+        height: 41.67vw;
+        border-radius: 2.34vw;
+        padding: 2.34vw;
+    }
+.detail-card .detail-card-right-r2 .detail-card-right-r2-r1 {
+        font-size: 2.34vw;
+        margin-bottom: 1.56vw;
+    }
+.detail-card .detail-card-right-r2 .detail-card-right-r2-nutrition {
+        height: auto;
+        padding-bottom: 1.04vw;
+        margin-bottom: 1.04vw;
+    }
+.detail-card .detail-card-right-r2 .detail-card-right-r2-nutrition :first-child {
+        font-size: 1.69vw;
+        white-space: nowrap;
+    }
+.detail-card .detail-card-right-r2 .detail-card-right-r2-nutrition :last-child {
+        font-size: 1.69vw;
+        white-space: nowrap;
+    }
+.detail-card .detail-card-right-r2 .detail-card-right-r2-r7 {
+        font-size: 1.69vw;
+        line-height: 2.86vw;
+        margin-top: 2.6vw;
+    }
 }
